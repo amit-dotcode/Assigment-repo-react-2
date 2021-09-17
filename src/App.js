@@ -1,12 +1,18 @@
 import './App.css';
-import Userdata from './components/Userdata';
+import Testcomponent  from './components/TestComponent';
+import Testcomponent2  from './components/TestComponent2';
+
 
 function App() {
 
-  // import Userdata and use and also import css for styling 
   return (
     <>
-    <Userdata/>
+    <div className="flex_grid">
+      <Testcomponent/>
+      <Testcomponent2/>
+    </div>
+    
+
     </>
   );
 }
