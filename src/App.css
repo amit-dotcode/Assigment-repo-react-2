@@ -64,3 +64,16 @@ span{
   margin: 10px 0px;
 }
 
+
+@media (max-width: 768px) { 
+
+  .flex_grid{
+    
+    flex-direction: column;
+  }
+
+  button{
+    margin-left: unset;
+    margin-top: 10px;
+  }
+}
